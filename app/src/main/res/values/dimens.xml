@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="tamTexto">14dp</dimen>
+    <dimen name="largocabecera">150dp</dimen>
+    <dimen name="anchoLayerBotones">150dp</dimen>
+    <dimen name="anchoBotones">100dp</dimen>
+    <dimen name="altoBotones">40dp</dimen>
+    <dimen name="marginBotones">30dp</dimen>
+    <dimen name="largocajatexto">200dp</dimen>
+    <dimen name="margenlayout">10dp</dimen>
+
+
+
+
+
+</resources>

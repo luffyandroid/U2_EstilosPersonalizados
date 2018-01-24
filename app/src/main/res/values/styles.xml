@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Estilo boton -->
+
+    <style name="margenlayout">
+
+        <item name="android:layout_margin">@dimen/margenlayout</item>
+
+    </style>
+    <style name="estiloBoton">
+
+        <item name="android:textColor">@color/colorGris</item>
+        <item name="android:textSize">@dimen/tamTexto</item>
+        <item name="android:shadowColor">@color/colorSombra</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/estilo_boton</item>
+
+
+    </style>
+    <style name="cabecera" parent="margenlayout">
+        <item name="android:background">@drawable/cabecera</item>
+        <item name="android:layout_height">@dimen/largocabecera</item>
+    </style>
+
+    <style name="layerBotones" parent="margenlayout">
+        <item name="android:layout_width">@dimen/anchoLayerBotones</item>
+        <item name="android:background">@drawable/estilolayout</item>
+
+    </style>
+    <style name="botonbase">
+        <item name="android:layout_width">@dimen/anchoBotones</item>
+        <item name="android:layout_height">@dimen/altoBotones</item>
+        <item name="android:layout_margin">@dimen/marginBotones</item>
+
+    </style>
+    <style name="estiloBotones" parent="botonbase">
+
+        <item name="android:background">@drawable/botonesizquierda</item>
+
+    </style>
+
+    <style name="fondoapp">
+        <item name="android:background">#23A0E8</item>
+    </style>
+
+    <style name="cajatexto">
+        <item name="android:layout_height">@dimen/largocajatexto</item>
+    </style>
+    <style name="botonfinal" parent="botonbase">
+
+        <item name="android:background">@drawable/botonfinal</item>
+
+    </style>
+
+</resources>
